@@ -19,7 +19,7 @@ class ViewController: UIViewController {
        
         // in master branch changes
 
-        // Do any     additional setup after loading the view, typically from a nib.
+        // Do any additional setup after loading the view, typically from a nib.
     }
     
 
