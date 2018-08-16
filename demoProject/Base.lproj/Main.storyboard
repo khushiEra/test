@@ -18,19 +18,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yGj-cs-KT6">
-                                <rect key="frame" x="67" y="79" width="240" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aDc-O3-Mbm">
+                                <rect key="frame" x="164" y="135" width="46" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="xYb-Cx-Tdy"/>
+                                    <constraint firstAttribute="height" constant="30" id="ed2-aq-ds3"/>
                                 </constraints>
-                            </view>
+                                <state key="normal" title="hi"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yGj-cs-KT6" secondAttribute="trailing" constant="68" id="dfG-Gy-OEN"/>
-                            <constraint firstItem="yGj-cs-KT6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="f6s-OO-BTG"/>
-                            <constraint firstItem="yGj-cs-KT6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="59" id="f8l-i3-nwU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aDc-O3-Mbm" secondAttribute="trailing" constant="165" id="DbE-KX-YUH"/>
+                            <constraint firstItem="aDc-O3-Mbm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="164" id="gkf-rq-igh"/>
+                            <constraint firstItem="aDc-O3-Mbm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="115" id="jHZ-Ob-XhI"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
